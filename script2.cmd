@@ -29,8 +29,9 @@ set /a "FALSE=0"
 
 set /a "AND=TRUE&FALSE"
 set /a "OR=TRUE|FALSE"
+set /a "OPPOSITE=!TRUE"
 
 echo %OR%
 echo %AND%
-
+echo %OPPOSITE%
 pause
